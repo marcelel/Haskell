@@ -1,0 +1,3 @@
+dot :: (b -> c) -> (a -> b) -> a -> c
+dot f g a = f $ g a
+infixr 9 dot
